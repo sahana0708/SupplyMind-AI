@@ -1,0 +1,15 @@
+# SupplyMind AI - Backend dependencies (Day 1: foundation)
+# More packages (database, Claude API, Temporal, MCP, pandas) will be
+# added as each feature is built.
+
+# Web framework and server
+fastapi==0.165.0
+uvicorn[standard]==0.54.0
+
+# Configuration from environment variables / .env
+pydantic-settings==2.16.3
+python-dotenv==1.2.4
+
+# Testing
+pytest==9.2.0
+httpx==0.28.1
